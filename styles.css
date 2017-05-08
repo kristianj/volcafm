@@ -1,0 +1,46 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: sans-serif;
+}
+html,
+body,
+main {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hidden {
+	display: none;
+}
+#error {
+	text-align: center;
+	font-style: italic;
+}
+#app {
+	width: 100%;
+	max-width: 600px;
+}
+.status {
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.status h2 {
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	margin: 0;
+	font-size: 1.4rem;
+}
+.status em {
+	font-style: normal;
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
